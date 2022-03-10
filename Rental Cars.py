@@ -9,6 +9,7 @@ car_list = [" 1.Suzuki Van Seats:2",
             " 8.Toyota Hi Ace Seats:12",
             " 9.Toyota Hi Ace Seats:12."]
 avail = ["Available", "Available", "Available", "Available", "Available", "Available", "Available", "Available", "Available"]
+name = input("Enter name:")
 run_program = True
 while run_program == True:
     for i in range(len(car_list)):
@@ -29,6 +30,6 @@ while run_program == True:
         print(f"{car_list[number-1]}")
 
 
-        print("Thank you for using University Vehicle Rental System your car will be ready shortly")
+        print(f"Thank you for using University Vehicle Rental System {name} your car will be ready shortly")
 
 
